@@ -12,6 +12,12 @@ from agents.testing_agent import TestingValidationAgent
 from agents.summary_agent import FinalSummaryAgent
 
 
+# ==========================================
+# OPENAI API KEY CONFIGURATION (Optional)
+# ==========================================
+# If use_simulation = False, you can set your API key directly here
+# instead of exporting it in your terminal environment.
+os.environ["OPENAI_API_KEY"] = "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"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] [%(name)s]: %(message)s")
 logger = logging.getLogger("MainRunner")
